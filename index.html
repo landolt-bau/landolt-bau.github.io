@@ -47,7 +47,7 @@
 
     <img src="images/intro.png" width="1280"  usemap="#map">
     <map name="map">
-      <area shape="rect" coords="160,220,400,270" alt="" href="landolt.html">
+      <area shape="rect" coords="160,290,400,360" alt="" href="landolt.html">
     </map>
 
     <!-- jQuery -->
@@ -64,6 +64,12 @@
         $('img[usemap]').fadeIn("slow", function() {
             $('img[usemap]').rwdImageMaps();
         });
+
+        setTimeout(function () {
+            $('body').fadeOut("slow", function() {
+                window.location.href = 'landolt.html';
+            });
+        }, 5000);
 
     });
     </script>
