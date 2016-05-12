@@ -19,6 +19,7 @@
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="lib/ekko-lightbox.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -105,8 +106,7 @@
             <div class="col-lg-12">
                 <h2 class="page-header">News</h2>
             </div>            
-            <div class="col-md-3">
-             <a href="images/news/apz.JPG">
+            <div class="col-md-3">             
                 <img class="img-responsive" src="images/team/pacollid.jpg" alt="">
                 </a>
             </div>
@@ -123,8 +123,8 @@
                 <h2 class="page-header"></h2>
             </div>            
             <div class="col-md-3">
-             <a href="images/news/apz.JPG">
-                <img class="img-responsive" src="images/news/apz.jpg" alt="">
+             <a href="images/news/apz.JPG" data-toggle="lightbox" data-title="Grundsteinlegung APZ Stammertal" class="thumbnail">
+                <img class="img-responsive  img-hover" src="images/news/apz.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
@@ -224,6 +224,8 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="lib/ekko-lightbox.min.js"></script>
+
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
@@ -236,6 +238,11 @@
       $("#header").load("header.html"); 
       $("#footer").load("footer.html"); 
     });
+
+     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    }); 
     </script>
 
 </body>
