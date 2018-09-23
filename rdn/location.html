@@ -44,18 +44,18 @@
         var map = new google.maps.Map(
             document.getElementById("map_canvas"),
             myOptions);
-     
+
         var marker = new google.maps.Marker({
             position: position,
             map: map,
             title: "This is the place."
-        });  
-     
+        });
+
         var contentString = 'Landolt + Co. AG';
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
-     
+
         google.maps.event.addListener(marker, 'click', function() {
           infowindow.open(map,marker);
         });
@@ -71,9 +71,9 @@
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
-            <BR>   
+            <BR>
             <p></p>
-            <ol class="breadcrumb">            
+            <ol class="breadcrumb">
                 <li><a href="main.html">Home</a>
                 </li>
                 <li class="active">Kontakt</li>
@@ -113,6 +113,25 @@
         </div>
         <!-- /.row -->
 
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact Form</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <form action="https://formspree.io/david.urscheler@landolt-bau.ch" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Comment:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+
+
         <!-- Footer -->
         <div id="footer"></div>
 
@@ -126,10 +145,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="http://www.landolt-bau.ch/js/bootstrap.min.js"></script>
 
-    <script> 
+    <script>
     $(function(){
-      $("#header").load("header.html"); 
-      $("#footer").load("footer.html"); 
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
     });
     </script>
 
