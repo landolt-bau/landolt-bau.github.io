@@ -19,6 +19,11 @@
     <link href="http://www.landolt-bau.ch/css/modern-business.css" rel="stylesheet">
     <link href="http://www.landolt-bau.ch/css/style.css" rel="stylesheet">
 
+    <style>
+        .checkbox>label {
+            margin-right: 10px;
+        }
+    </style>
 
     <!-- Custom Fonts -->
     <link href="http://www.landolt-bau.ch/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,7 +37,7 @@
 </head>
 
 <body>
-    
+
 
     <!-- Navigation -->
     <div id="header"></div>
@@ -57,9 +62,9 @@
                 <h1 class="page-header">Kontaktformular</h1>
             </div>
         </div>
-        <!-- /.row -->     
+        <!-- /.row -->
 
-        
+
 
         <!-- Form using formspree (not preferred)
         <form action="https://formspree.io/david.urscheler@landolt-bau.ch" method="post" enctype="text/plain">
@@ -79,8 +84,8 @@
              The forms sent are also entered into a google sheet at:
              https://docs.google.com/spreadsheets/d/1mO5JcpcF5zkO-YCDwWEI6uFj9y-CEnf-MzXrkuVgyx0/edit#gid=0
         -->
-        <form class="gform form-horizontal" method="POST" data-email="david.urscheler@landolt-bau.ch"
-              action="https://script.google.com/macros/s/AKfycbx_FB5kAS8oyiLubl6pYkIWi1Do89eTlY5GBT6r2Q/exec">
+        <form class="gform form-horizontal" method="POST" data-emailx="david.urscheler@landolt-bau.ch" data-email="rurscheler@gmail.com"
+            action="https://script.google.com/macros/s/AKfycbx_FB5kAS8oyiLubl6pYkIWi1Do89eTlY5GBT6r2Q/exec">
             <div class="form-group">
                 <label for="vorname" class="col-sm-2 control-label">Vorname(n): <sup>*</sup></label>
                 <div class="col-sm-4">
@@ -103,9 +108,9 @@
             </div>
 
             <div class="form-group">
-                <label for="PLZ/Ort" class="col-sm-2 control-label">PLZ/Ort:</label>
+                <label for="PLZ_Ort" class="col-sm-2 control-label">PLZ/Ort:</label>
                 <div class="col-sm-4">
-                    <input id="PLZ/Ort" name="PLZ/Ort" class="form-control" />
+                    <input id="PLZ_Ort" name="PLZ_Ort" class="form-control" />
                 </div>
             </div>
 
@@ -130,47 +135,53 @@
                 </div>
             </div>
 
-            
+
             <div class="form-group">
-                <label for="kontaktaufnahme per" class="col-sm-2 control-label">Bitte nehmen Sie mit mir Kontakt auf:<sup>*</sup></label>
+                <label class="col-sm-2 control-label">Bitte nehmen Sie mit mir Kontakt auf:<sup>*</sup></label>
                 <div class="col-sm-4">
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox"> per E-Mail
+                            <input type="checkbox" name="contact_via" value="email">per E-Mail
                         </label>
+                        <br>
                         <label>
-                            <input type="checkbox"> per Telefon
+                            <input type="checkbox" name="contact_via" value="tel">per Telefon
                         </label>
-                    </div>                    
+                    </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <label for="kontaktaufnahme per" class="col-sm-2 control-label">Wie sind Sie auf unser Angebot aufmerksam geworden?:</label>
+                <label class="col-sm-2 control-label">Wie sind Sie auf unser Angebot aufmerksam geworden?:</label>
                 <div class="col-sm-4">
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox">Internetseite
+                            <input type="checkbox" name="seen_at" value="internet">Internetseite
                         </label>
+                        <br>
                         <label>
-                            <input type="checkbox">Facebook
+                            <input type="checkbox" name="seen_at" value="facebook">Facebook
                         </label>
+                        <br>
                         <label>
-                            <input type="checkbox">Zeitung
+                            <input type="checkbox" name="seen_at" value="zeitung">Zeitung
                         </label>
+                        <br>
                         <label>
-                            <input type="checkbox">Bautafel
+                            <input type="checkbox" name="seen_at" value="bautafel">Bautafel
                         </label>
+                        <br>
                         <label>
-                            <input type="checkbox">Persönlicher Kontakt
+                            <input type="checkbox" name="seen_at" value="private">Persönlicher Kontakt
                         </label>
+                        <br>
                         <label>
-                            <input type="checkbox">keines der vorherigen
+                            <input type="checkbox" name="seen_at" value="none">keines der vorherigen
                         </label>
-                    </div>                    
+                    </div>
                 </div>
             </div>
-
+            <!--
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-4">
                     <div class="checkbox">
@@ -180,6 +191,7 @@
                     </div>
                 </div>
             </div>
+        -->
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                     <button type="submit" class="btn btn-default">Absenden</button>
@@ -188,14 +200,14 @@
 
             <div>
                 <p class="cc-m-form-note">
-                     <strong>Hinweis:</strong>
-                        Bitte die mit <span class="j-m-required">*</span> gekennzeichneten Felder ausfüllen. </p>
+                    <strong>Hinweis:</strong>
+                    Bitte die mit <span class="j-m-required">*</span> gekennzeichneten Felder ausfüllen. </p>
             </div>
 
 
             <!-- Customise the Thankyou Message People See when they submit the form: -->
             <div class="thankyou_message" style="display:none;">
-                <h4>Danke, dass Sie uns kontaktiert haben! Wir werden uns bei Ihnen melden!</h4>
+                <h3>Danke, dass Sie uns kontaktiert haben. Wir werden uns bei Ihnen melden.</h3>
             </div>
         </form>
 
