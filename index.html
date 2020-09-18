@@ -45,7 +45,7 @@
 
 <body style="padding-top:0px; background:#DCDDDB">
 
-    <img src="images/intro.png" width="1280" usemap="#map">
+    <img src="images/intro.png" width="1280" usemap="#map">                                                 <!-- Imagemap zur Weiterleitung an Groupseiten -->
     <map name="map">
       <area shape="rect" coords="106,245,645,305" alt="" href="http://www.landolt-bau.ch/landolt.html">
       <area shape="rect" coords="720,245,1180,305" alt="" href="http://www.hansstutzag.ch">
@@ -71,7 +71,7 @@
             $('img[usemap]').rwdImageMaps();
         });
 
-        setTimeout(function () {
+        setTimeout(function () {                                                                            //Automatische Weiterleitung nach 5000,  (1000 ms = 1 second) =5sec.
             $('body').fadeOut("slow", function() {
                 window.location.href = 'landolt.html';
             });
