@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" type="image/png" href="images/logo/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/logo/favicon.png" />
 
     <title>Hans Stutz AG</title>
 
@@ -34,7 +34,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114595564-5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-114595564-5');
@@ -54,12 +57,19 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>     
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
+                <div class="fill" style="background-image:url('images/karussell/steinacher.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Wohnüberbauung Steinacher, Witikon</h2>
+                </div>
+            </div>
+            <div class="item">
                 <div class="fill" style="background-image:url('images/karussell/evobus.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Neubau Bus-Kompetenz-Center EvoBus, Winterthur</h2>
@@ -83,12 +93,12 @@
                     <h2>Neubau MFH Unterherten</h2>
                 </div>
             </div>
-            <div class="item">
+            <!-- <div class="item">
                 <div class="fill" style="background-image:url('images/karussell/wartstrasse.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Neubau 2 MFH Wartstrasse 266, Winterthur</h2>
                 </div>
-            </div>           
+            </div> -->
         </div>
 
         <!-- Controls -->
@@ -110,272 +120,372 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center lead">
-                <p>Herzlich Willkommen bei der Hans Stutz AG. Eine Unternehmung der <b>LANDOLT</b> GRUPPE. Ihre Baukompetenz in der Stadt Winterthur und weiteren Umgebung. </p>
+                <p>Herzlich Willkommen bei der Hans Stutz AG. Eine Unternehmung der <b>LANDOLT</b> GRUPPE. Ihre
+                    Baukompetenz in der Stadt Winterthur und weiteren Umgebung. </p>
             </div>
             <div class="col-md-2"></div>
-        </div>       
+        </div>
 
         <!--Features Section -->
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">News</h2>                                       <!-- Diego -->
-            </div>            
-            <div class="col-md-3">             
-                <a href="https://www.landolt-bau.ch/images/news/07.jpg" data-toggle="lightbox" data-title="Diego De Oliveira Pinto " class="thumbnail">
-                    <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/07_small.jpg" alt="">
+                <h2 class="page-header">News</h2> <!-- Skiweekend -->
+            </div>
+            <div class="col-md-3">
+                <a href="images/galerie-ski22/10.jpg" data-toggle="lightbox" data-title="Auf dem Skilift"
+                    class="thumbnail">
+                    <img class="img-responsive  img-hover" src="images/galerie-ski22/10small.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">19.03.2022 &middot; </span>Skiweekend für
+                    Kader und
+                    Lehrlinge</h4>
+                <p>Das lang ersehnte Skiwochenende für Kadermitarbeiter/-innen und Lehrlinge der <b>LANDOLT</b> GRUPPE
+                    konnte dieses Jahr wieder
+                    stattfinden. Mit mässig viel Schnee, dafür umso mehr Sonne, war das Wochenende ein voller Erfolg!
+                </p>
+                <p>Hier gehts zur <a href="galerie-ski22.html" target="_blank">Galerie.</a>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2> <!-- Diego -->
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/07.jpg" data-toggle="lightbox"
+                    data-title="Diego De Oliveira Pinto " class="thumbnail">
+                    <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/07_small.jpg"
+                        alt="">
                 </a>
             </div>
             <div class="col-md-9">
                 <h4><span style="font-weight:normal; color:gray">August 2021 &middot; </span>Start ins Berufsleben</h4>
-                <p>Diego De Oliveira Pinto - Lernender Baupraktiker EBA - Herzlich Willkommen! 
-                    </p>
-                  </div>
+                <p>Diego De Oliveira Pinto - Lernender Baupraktiker EBA - Herzlich Willkommen!
+                </p>
+            </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                       <!-- Juli 2021 Lehrabschluss -->
-            </div>            
-            <div class="col-md-3">             
-                <a href="https://www.landolt-bau.ch/images/news/Gratulationsinserat21.jpg" data-toggle="lightbox" data-title="Lehrabschluss" class="thumbnail">
-                    <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/Gratulationsinserat21small.jpg" alt="">
+                <h2 class="page-header"></h2> <!-- Juli 2021 Lehrabschluss -->
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/Gratulationsinserat21.jpg" data-toggle="lightbox"
+                    data-title="Lehrabschluss" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/Gratulationsinserat21small.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">Juli 2021 &middot; </span>Erfolgreicher Lehrabschluss!</h4>
-                <p>Alle Lernenden der <b>LANDOLT</b> GRUPPE haben die diesjährige Abschlussprüfung erfolgreich bestanden und dürfen sich nun Maurer EFZ nennen. 
-                    Wir gratulieren den jungen Berufsfachleuten ganz herzlich und wünschen für die Zukunft alles Gute und viel Erfolg.</p>
+                <h4><span style="font-weight:normal; color:gray">Juli 2021 &middot; </span>Erfolgreicher Lehrabschluss!
+                </h4>
+                <p>Alle Lernenden der <b>LANDOLT</b> GRUPPE haben die diesjährige Abschlussprüfung erfolgreich bestanden
+                    und dürfen sich nun Maurer EFZ nennen.
+                    Wir gratulieren den jungen Berufsfachleuten ganz herzlich und wünschen für die Zukunft alles Gute
+                    und viel Erfolg.</p>
                 <p><b>Fabio Martinelli</b>, Landolt + Co. AG Bauunternehmung<br>
                     <b>Florian Kaiser</b>, Schmidli Bau AG<br>
                     <b>Lars Werren</b>, Hans Stutz AG<br>
-                    </p>
-                     
+                </p>
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                       <!-- Juni Carmine Bosco-->
-            </div>            
-            <div class="col-md-3">             
-                <a href="https://www.hansstutzag.ch/images/news/carmine.png" data-toggle="lightbox" data-title="Carmine Bosco" class="thumbnail">
-                    <img class="img-responsive  img-hover" src="https://www.hansstutzag.ch/images/news/carmine_small.png" alt="">
+                <h2 class="page-header"></h2> <!-- Juni Carmine Bosco-->
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.hansstutzag.ch/images/news/carmine.png" data-toggle="lightbox"
+                    data-title="Carmine Bosco" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.hansstutzag.ch/images/news/carmine_small.png" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">Juni 2021 &middot; </span>Willkommen Carmine Bosco!</h4>
-                <p>Seit Juni 2021 verstärkt Carmine Bosco das Bauführer-Team im Bereich Kundenarbeiten. 
-                    Wir heissen ihn herzlich willkommen und wünschen ihm alles Gute und viel Freude bei der Ausübung seines Berufes.
-                    </p>
-                     
+                <h4><span style="font-weight:normal; color:gray">Juni 2021 &middot; </span>Willkommen Carmine Bosco!
+                </h4>
+                <p>Seit Juni 2021 verstärkt Carmine Bosco das Bauführer-Team im Bereich Kundenarbeiten.
+                    Wir heissen ihn herzlich willkommen und wünschen ihm alles Gute und viel Freude bei der Ausübung
+                    seines Berufes.
+                </p>
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                       <!-- Juni 2021 Firmenzeitung -->
-            </div>            
-            <div class="col-md-3">             
+                <h2 class="page-header"></h2> <!-- Juni 2021 Firmenzeitung -->
+            </div>
+            <div class="col-md-3">
                 <img class="img-responsive" src="https://www.landolt-bau.ch/images/fize/fize_06_21_small.png" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">Juni 2021 &middot; </span>Aktuelle Firmenzeitung - <b>LANDOLT</b> GRUPPE</h4>
-                <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und Baustellen. Erfahren Sie "Neues" 
-                    von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr über getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
+                <h4><span style="font-weight:normal; color:gray">Juni 2021 &middot; </span>Aktuelle Firmenzeitung -
+                    <b>LANDOLT</b> GRUPPE</h4>
+                <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und
+                    Baustellen. Erfahren Sie "Neues"
+                    von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr über getätigte Weiterbildungen,
+                    bestandene Prüfungen und gefeierte Anlässe.</p>
                 <p>Schauen Sie rein.</p>
-                <p><a href="https://www.landolt-bau.ch/pdf/fize/juli_21.pdf" target="_blank" >BAU III WERK - Juni 2021</a></p>     
+                <p><a href="https://www.landolt-bau.ch/pdf/fize/juli_21.pdf" target="_blank">BAU III WERK - Juni
+                        2021</a></p>
 
                 <p>Unsere alten Firmenzeitungen finden Sie unter:
-                <a href="firmenzeitung.html" target="_blank" >Aktuell / Firmenzeitung</a></p>          
+                    <a href="firmenzeitung.html" target="_blank">Aktuell / Firmenzeitung</a></p>
             </div>
         </div>
 
-        <div class="row">                                      <!-- Jeremy Vollenweider -->
-            <div class="col-lg-12">                                                                                          
-                  <h2 class="page-header"></h2>
-              </div>            
-              <div class="col-md-3">             
-                  <a href="https://www.landolt-bau.ch/images/news/jeremy01.jpg" data-toggle="lightbox" data-title="Jeremy Vollenweider" class="thumbnail">
-                      <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/jeremy01_small.jpg" alt="">
-                  </a>
-              </div>
-              <div class="col-md-9">
-                  <h4><span style="font-weight:normal; color:gray">Juni 2021 &middot; </span>Die <b>LANDOLT</b> GRUPPE wird persönliche Sponsorin von Jeremy Vollenweider</h4>
-                  <p>Es freut uns ausserordentlich, dass wir unseren Vorarbeiter Jeremy Vollenweider 
-                      als persönliche Sponsorin unterstützen und auf seinem sportlichen Weg als Schwinger und Ringer begleiten dürfen. 
-                      Die Unterzeichnung des Sponsoringvertrages fand am 01.06.2021 bei einem kleinen Apéro im Thurhüsli in Kleinandelfingen statt. 
-                      Nach der Unterschrift und einem kräftigen Handschlag (coronakonform Hände vorher und nachher desinfiziert) besiegelten die 
-                      Anwesenden die Kooperation mit einem Schluck Wein. Nebst Jeremy und der GL waren auch die Mutter und Managerin Petra sowie seine 
-                      Freundin Saskia dabei.<br>
-
-                    Wir freuen uns auf eine gute Zusammenarbeit, wünschen Jeremy viel Erfolg, unfallfreie Saisons und hoffen, 
-                    viele Male auf tolle Leistungen anstossen zu dürfen.
-                      </p>   
-                         
-              </div>
-      </div>
-
-
-        <div class="row">                                      <!-- April 2021 neuer CFO -->
-            <div class="col-lg-12">                                                                                          
-                  <h2 class="page-header"></h2>
-              </div>            
-              <div class="col-md-3">             
-                  <a href="https://www.landolt-bau.ch/images/news/stephan_mueller_original.jpg" data-toggle="lightbox" data-title="Stephan Müller" class="thumbnail">
-                      <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/stephan_mueller_small.jpg" alt="">
-                  </a>
-              </div>
-              <div class="col-md-9">
-                  <h4><span style="font-weight:normal; color:gray">01.04.2021 &middot; </span>Stephan Müller tritt als neuer CFO in die Gruppenleitung ein</h4>
-                  <p>Am Donnerstag, 1. April, ist Stephan Müller aus Winterthur als unser neuer CFO gestartet. In den nächsten 3 Monaten erfolgt nun die 
-                      Einarbeitung sowie die Verantwortungsübergabe von David Urscheler an Stephan Müller.
-                    Gruppenleitung und Verwaltungsrat freuen sich auf die Zusammenarbeit mit Stephan und wünschen ihm einen guten Start, sowie viel Freude und 
-                    Erfolg bei seiner zukünftigen Aufgabe.
-                      </p>   
-                         
-              </div>
-      </div>
-
-        <div class="row">                                      <!-- Februar 2021 Bestandene Polierprüfung -->
-            <div class="col-lg-12">                                                                                          
-                  <h2 class="page-header"></h2>
-              </div>            
-              <div class="col-md-3">             
-                  <a href="https://www.landolt-bau.ch/images/news/congrats.jpg" data-toggle="lightbox" data-title="Lehrstellen" class="thumbnail">
-                      <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/congrats.jpg" alt="">
-                  </a>
-              </div>
-              <div class="col-md-9">
-                  <h4><span style="font-weight:normal; color:gray">Februar 2021 &middot; </span>Gratulation zur bestandenen Polierprüfung!</h4>
-                  <p>Wir gratulieren unseren folgenden Mitarbeitern ganz herzlich zur bestandenen Polierprüfung in St. Gallen:<br>
-
-                    <b>Hans Stutz AG</b><br>
-                    -	Roman Ochsner (zusätzlich auch die eidg. Polierprüfung bestanden)<br>
-                    
-                    <b>Bolli Bau AG</b><br>
-                    -	Maico Sidney Schaible<br>
-                    
-                    <b>Landolt +  Co. AG Bauunternehmung</b><br>
-                    -	Joel Etzensperger (zusätzlich auch die eidg. Polierprüfung bestanden)<br>
-                    
-                    -	Manuel Elias Ehrat (zusätzlich auch die eidg. Polierprüfung bestanden)<br>
-                    
-                    Alle 4 erhalten bei der <b>LANDOLT</b> GRUPPE einen Poliervertrag. Wir wünschen ihnen viel Erfolg und Erfüllung bei der Ausübung der verantwortungsvollen und spannenden neuen Aufgabe als Baupolier auf unseren Baustellen!
-                         
-                      </p>   
-                         
-              </div>
-      </div>  
-      <div class="row">                                      <!-- Februar 2021 Lehrlingsinserat -->
-        <div class="col-lg-12">                                                                                          
-              <h2 class="page-header"></h2>
-          </div>            
-          <div class="col-md-3">             
-              <a href="https://www.landolt-bau.ch/images/news/Lehrlingsinserat_Gruppe_2021_Sommer_alle_2.jpg" data-toggle="lightbox" data-title="Lehrstellen" class="thumbnail">
-                  <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/Lehrlingsinserat_Gruppe_2021_Sommer_alle_2.jpg" alt="">
-              </a>
-          </div>
-          <div class="col-md-9">
-              <h4><span style="font-weight:normal; color:gray">Februar 2021 &middot; </span>Vielfältige und interessante Ausbildungsplätze bei der <b>LANDOLT</b> GRUPPE zu vergeben</h4>
-              <p>Bist Du auf der Suche nach einer abwechslungsreichen Lehre? Auf Sommer 2021 bietet die <b>LANDOLT</b> GRUPPE verschiedene Lehrstellen an. 
-                Interessiert? Dann melde Dich für eine Schnupperwoche.
-                                   
-                  </p>   
-                     
-          </div>
-  </div>
-
-        <div class="row">                                      <!-- 01.01.2021 neue Sekretariatsmitarbeiterin-->
-            <div class="col-lg-12">                                                                                          
-                  <h2 class="page-header"></h2>
-              </div>            
-              <div class="col-md-3">             
-                  <a href="https://www.landolt-bau.ch/images/news/karola_meyer.jpg" data-toggle="lightbox" data-title="Karola Mayer" class="thumbnail">
-                      <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/karola_meyer_small.jpg" alt="">
-                  </a>
-              </div>
-              <div class="col-md-9">
-                  <h4><span style="font-weight:normal; color:gray">Februar 2021 &middot; </span>Willkommen Karola</h4>
-                  <p>Wir begrüssen Karola ganz herzlich in unserem Team. Sie arbeitet als Kfm. Angestellte zu 60 % bei der Hans Stutz AG und 
-                      zu 40 % betreut sie das Sekretariat bei der Landolt + Co. AG Bauunternehmung mit. Wir wünschen Karola alles Gute und viel 
-                      Freude an ihrer Arbeitsstelle.                   
-                      </p>   
-                         
-              </div>
-            </div>
-
-
-
-        <div class="row">                                      <!-- 01.01.2021 neuer COO-->
-            <div class="col-lg-12">                                                                                          
-                  <h2 class="page-header"></h2>
-              </div>            
-              
-              <div class="col-md-3">             
-                  <a href="https://www.landolt-bau.ch/images/news/RetoFaerber.jpg" data-toggle="lightbox" data-title="Reto Färber" class="thumbnail">
-                      <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/RetoFaerber_small.jpg" alt="">
-                  </a>
-              </div>
-              <div class="col-md-9">
-                  <h4><span style="font-weight:normal; color:gray">Januar 2021 &middot; </span>Willkommen Reto Färber, COO und stv. CEO, Mitglied der GL</h4>
-                  <p>Mit Reto Färber aus Neftenbach tritt ein erfahrener Baumeister mit grosser Führungserfahrung in die Gruppenleitung der <b>LANDOLT</b> GRUPPE 
-                      und in die jeweiligen Geschäftsleitungen der Tochterfirmen ein. Reto Färber übernimmt ab 1.1.2021 die Leitung der operativen Bereiche 
-                      und den Support der bestehenden Führungsteams unserer Tochterfirmen. Ebenfalls übernimmt Reto Färber die Stellvertretung von CEO Christian Landolt.<br><br>
-
-                    Der Verwaltungsrat und die Gruppenleitung freuen sich auf die bevorstehende Zusammenarbeit mit Reto Färber und wünschen ihm bei seinen 
-                    verantwortungsvollen und vielseitigen Aufgaben viel Freude, Befriedigung und viel Erfolg.
-                    
-                      </p>   
-                         
-              </div>
-          </div>
-
-        <div class="row">                                      <!-- 01.01.2021 neuer Leiter Aquisition-->
-            <div class="col-lg-12">                                                                                          
-                  <h2 class="page-header"></h2>
-              </div>            
-              <div class="col-md-3">             
-                  <a href="https://www.landolt-bau.ch/images/news/JuergVetter.JPG" data-toggle="lightbox" data-title="Jürg Vetter" class="thumbnail">
-                      <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/JuergVetter_small.JPG" alt="">
-                  </a>
-              </div>
-              <div class="col-md-9">
-                  <h4><span style="font-weight:normal; color:gray">Januar 2021 &middot; </span>Willkommen Jürg Vetter, Leiter Akquisition</h4>
-                  <p>Mit Jürg Vetter aus Henggart übernimmt ein bestens ausgebildeter und ausgewiesener Baufachmann mit grosser Erfahrung in Kalkulation und 
-                      Akquisition die neu geschaffene Stelle als Leiter Akquisition und somit die Leitung über das bestehende Kalkulationsteam und ist damit 
-                      unser kompetenter Ansprechpartner für die Auftragsbeschaffung und die Offertstellung der Bauunternehmungen der <b>LANDOLT</b> GRUPPE. 
-                      Unterstützt bei der Auftragsbeschaffung wird Jürg Vetter von den jeweils zuständigen Bereichsleitern sowie von CEO und COO. <br><br>
-
-                    Wir freuen uns auf eine erfolgreiche Zusammenarbeit und wünschen Jürg Vetter einen guten Start, viel Freude und Befriedigung bei seiner neuen Aufgabe.
-                      </p>   
-                         
-              </div>
-          </div>
-
-
-        <div class="row">                                      <!-- 05.12.2020 Jubilare-->
+        <div class="row">
+            <!-- Jeremy Vollenweider -->
             <div class="col-lg-12">
                 <h2 class="page-header"></h2>
-            </div>            
-            <div class="col-md-3">             
-                <a href="https://www.landolt-bau.ch/images/news/jubilare_2020.jpg" data-toggle="lightbox" data-title="Jubilare" class="thumbnail">     <!--http://www.landolt-bau.ch/images/news/jubilare_2020.jpg-->
-                    <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/jubilare_2020_small.jpg" alt="">
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/jeremy01.jpg" data-toggle="lightbox"
+                    data-title="Jeremy Vollenweider" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/jeremy01_small.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">Juni 2021 &middot; </span>Die <b>LANDOLT</b> GRUPPE
+                    wird persönliche Sponsorin von Jeremy Vollenweider</h4>
+                <p>Es freut uns ausserordentlich, dass wir unseren Vorarbeiter Jeremy Vollenweider
+                    als persönliche Sponsorin unterstützen und auf seinem sportlichen Weg als Schwinger und Ringer
+                    begleiten dürfen.
+                    Die Unterzeichnung des Sponsoringvertrages fand am 01.06.2021 bei einem kleinen Apéro im Thurhüsli
+                    in Kleinandelfingen statt.
+                    Nach der Unterschrift und einem kräftigen Handschlag (coronakonform Hände vorher und nachher
+                    desinfiziert) besiegelten die
+                    Anwesenden die Kooperation mit einem Schluck Wein. Nebst Jeremy und der GL waren auch die Mutter und
+                    Managerin Petra sowie seine
+                    Freundin Saskia dabei.<br>
+
+                    Wir freuen uns auf eine gute Zusammenarbeit, wünschen Jeremy viel Erfolg, unfallfreie Saisons und
+                    hoffen,
+                    viele Male auf tolle Leistungen anstossen zu dürfen.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- April 2021 neuer CFO -->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/stephan_mueller_original.jpg" data-toggle="lightbox"
+                    data-title="Stephan Müller" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/stephan_mueller_small.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">01.04.2021 &middot; </span>Stephan Müller tritt als
+                    neuer CFO in die Gruppenleitung ein</h4>
+                <p>Am Donnerstag, 1. April, ist Stephan Müller aus Winterthur als unser neuer CFO gestartet. In den
+                    nächsten 3 Monaten erfolgt nun die
+                    Einarbeitung sowie die Verantwortungsübergabe von David Urscheler an Stephan Müller.
+                    Gruppenleitung und Verwaltungsrat freuen sich auf die Zusammenarbeit mit Stephan und wünschen ihm
+                    einen guten Start, sowie viel Freude und
+                    Erfolg bei seiner zukünftigen Aufgabe.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Februar 2021 Bestandene Polierprüfung -->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/congrats.jpg" data-toggle="lightbox"
+                    data-title="Lehrstellen" class="thumbnail">
+                    <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/congrats.jpg"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">Februar 2021 &middot; </span>Gratulation zur
+                    bestandenen Polierprüfung!</h4>
+                <p>Wir gratulieren unseren folgenden Mitarbeitern ganz herzlich zur bestandenen Polierprüfung in St.
+                    Gallen:<br>
+
+                    <b>Hans Stutz AG</b><br>
+                    - Roman Ochsner (zusätzlich auch die eidg. Polierprüfung bestanden)<br>
+
+                    <b>Bolli Bau AG</b><br>
+                    - Maico Sidney Schaible<br>
+
+                    <b>Landolt + Co. AG Bauunternehmung</b><br>
+                    - Joel Etzensperger (zusätzlich auch die eidg. Polierprüfung bestanden)<br>
+
+                    - Manuel Elias Ehrat (zusätzlich auch die eidg. Polierprüfung bestanden)<br>
+
+                    Alle 4 erhalten bei der <b>LANDOLT</b> GRUPPE einen Poliervertrag. Wir wünschen ihnen viel Erfolg
+                    und Erfüllung bei der Ausübung der verantwortungsvollen und spannenden neuen Aufgabe als Baupolier
+                    auf unseren Baustellen!
+
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <!-- Februar 2021 Lehrlingsinserat -->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/Lehrlingsinserat_Gruppe_2021_Sommer_alle_2.jpg"
+                    data-toggle="lightbox" data-title="Lehrstellen" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/Lehrlingsinserat_Gruppe_2021_Sommer_alle_2.jpg"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">Februar 2021 &middot; </span>Vielfältige und
+                    interessante Ausbildungsplätze bei der <b>LANDOLT</b> GRUPPE zu vergeben</h4>
+                <p>Bist Du auf der Suche nach einer abwechslungsreichen Lehre? Auf Sommer 2021 bietet die <b>LANDOLT</b>
+                    GRUPPE verschiedene Lehrstellen an.
+                    Interessiert? Dann melde Dich für eine Schnupperwoche.
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- 01.01.2021 neue Sekretariatsmitarbeiterin-->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/karola_meyer.jpg" data-toggle="lightbox"
+                    data-title="Karola Mayer" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/karola_meyer_small.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">Februar 2021 &middot; </span>Willkommen Karola</h4>
+                <p>Wir begrüssen Karola ganz herzlich in unserem Team. Sie arbeitet als Kfm. Angestellte zu 60 % bei der
+                    Hans Stutz AG und
+                    zu 40 % betreut sie das Sekretariat bei der Landolt + Co. AG Bauunternehmung mit. Wir wünschen
+                    Karola alles Gute und viel
+                    Freude an ihrer Arbeitsstelle.
+                </p>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <!-- 01.01.2021 neuer COO-->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/RetoFaerber.jpg" data-toggle="lightbox"
+                    data-title="Reto Färber" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/RetoFaerber_small.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">Januar 2021 &middot; </span>Willkommen Reto Färber, COO
+                    und stv. CEO, Mitglied der GL</h4>
+                <p>Mit Reto Färber aus Neftenbach tritt ein erfahrener Baumeister mit grosser Führungserfahrung in die
+                    Gruppenleitung der <b>LANDOLT</b> GRUPPE
+                    und in die jeweiligen Geschäftsleitungen der Tochterfirmen ein. Reto Färber übernimmt ab 1.1.2021
+                    die Leitung der operativen Bereiche
+                    und den Support der bestehenden Führungsteams unserer Tochterfirmen. Ebenfalls übernimmt Reto Färber
+                    die Stellvertretung von CEO Christian Landolt.<br><br>
+
+                    Der Verwaltungsrat und die Gruppenleitung freuen sich auf die bevorstehende Zusammenarbeit mit Reto
+                    Färber und wünschen ihm bei seinen
+                    verantwortungsvollen und vielseitigen Aufgaben viel Freude, Befriedigung und viel Erfolg.
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- 01.01.2021 neuer Leiter Aquisition-->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/JuergVetter.JPG" data-toggle="lightbox"
+                    data-title="Jürg Vetter" class="thumbnail">
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/JuergVetter_small.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4><span style="font-weight:normal; color:gray">Januar 2021 &middot; </span>Willkommen Jürg Vetter,
+                    Leiter Akquisition</h4>
+                <p>Mit Jürg Vetter aus Henggart übernimmt ein bestens ausgebildeter und ausgewiesener Baufachmann mit
+                    grosser Erfahrung in Kalkulation und
+                    Akquisition die neu geschaffene Stelle als Leiter Akquisition und somit die Leitung über das
+                    bestehende Kalkulationsteam und ist damit
+                    unser kompetenter Ansprechpartner für die Auftragsbeschaffung und die Offertstellung der
+                    Bauunternehmungen der <b>LANDOLT</b> GRUPPE.
+                    Unterstützt bei der Auftragsbeschaffung wird Jürg Vetter von den jeweils zuständigen Bereichsleitern
+                    sowie von CEO und COO. <br><br>
+
+                    Wir freuen uns auf eine erfolgreiche Zusammenarbeit und wünschen Jürg Vetter einen guten Start, viel
+                    Freude und Befriedigung bei seiner neuen Aufgabe.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- 05.12.2020 Jubilare-->
+            <div class="col-lg-12">
+                <h2 class="page-header"></h2>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.landolt-bau.ch/images/news/jubilare_2020.jpg" data-toggle="lightbox"
+                    data-title="Jubilare" class="thumbnail">
+                    <!--http://www.landolt-bau.ch/images/news/jubilare_2020.jpg-->
+                    <img class="img-responsive  img-hover"
+                        src="https://www.landolt-bau.ch/images/news/jubilare_2020_small.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
                 <h4><span style="font-weight:normal; color:gray">05.12.2020 &middot; </span>Ehrung der Jubilare</h4>
-                <p>Auch die LANDOLT GRUPPE musste dieses Jahr leider fast alle Anlässe absagen, unter anderem fiel auch das Jahresschlussessen 
-                    für die Mitarbeitenden und deren Angehörige Corona zum Opfer. Die Ehrung der Jubilare fand deshalb in einem anderen Rahmen statt. 
-                    Die Jubiläen dieser verdienten Mitarbeitern wurden am 05. Dezember 2020 im Thurhüsli in kleinem, aber feinem Kreis gefeiert. 
+                <p>Auch die LANDOLT GRUPPE musste dieses Jahr leider fast alle Anlässe absagen, unter anderem fiel auch
+                    das Jahresschlussessen
+                    für die Mitarbeitenden und deren Angehörige Corona zum Opfer. Die Ehrung der Jubilare fand deshalb
+                    in einem anderen Rahmen statt.
+                    Die Jubiläen dieser verdienten Mitarbeitern wurden am 05. Dezember 2020 im Thurhüsli in kleinem,
+                    aber feinem Kreis gefeiert.
                     Verdankt für ihre Leistung wurden die folgenden Personen:<br><br>
 
                     <b>20 Jahre Arbeitsjubiläum</b><br>
 
-                    Carlos Manuel Afonso Vieira, Rolf Christen, Dionisio Fernando Ferreira de Lima, Armando Da Cunha Miranda, Artur J. Figueiredo Borges, 
-                    Slobodan Dimitrijevic jun., Daniel Antonio Da Silva Gomes, Raphael Meier, Ivan Rossetti, Vreni Galgano (alle Landolt + Co. AG), 
-                    Andreas Albisser (Hans Stutz AG), Manuel Ribeiro Aires, Kurt Fuchs, Pedro Gerpe (alle Schmidli Bau AG), Walter Zimmermann (Bolli Bau AG).<br><br>
+                    Carlos Manuel Afonso Vieira, Rolf Christen, Dionisio Fernando Ferreira de Lima, Armando Da Cunha
+                    Miranda, Artur J. Figueiredo Borges,
+                    Slobodan Dimitrijevic jun., Daniel Antonio Da Silva Gomes, Raphael Meier, Ivan Rossetti, Vreni
+                    Galgano (alle Landolt + Co. AG),
+                    Andreas Albisser (Hans Stutz AG), Manuel Ribeiro Aires, Kurt Fuchs, Pedro Gerpe (alle Schmidli Bau
+                    AG), Walter Zimmermann (Bolli Bau AG).<br><br>
 
                     <b>30 Jahre Arbeitsjubiläum</b><br>
 
@@ -388,358 +498,502 @@
                     <b>Eintritt in den FAR</b><br>
 
                     Ernst Waser, Adelino Pereira, Günther Stoll, Milija Rakic (alle Landolt + Co. AG)<br><br>
-                </p>   
-                    <p>Fotos finden Sie in der <a href="galerie-jubilare20.html" target="_blank" >Galerie.</a></p>        
+                </p>
+                <p>Fotos finden Sie in der <a href="galerie-jubilare20.html" target="_blank">Galerie.</a></p>
             </div>
         </div>
-        
-        <div class="row">                                      <!--Beitrag August 2020 Neue Lehrlinge-->
+
+        <div class="row">
+            <!--Beitrag August 2020 Neue Lehrlinge-->
             <div class="col-lg-12">
                 <h2 class="page-header"></h2>
-            </div>            
-            <div class="col-md-3">             
-                <a href="images/news/HST_Samuel Eggimann.jpg" data-toggle="lightbox" data-title="Samuel Eggimann" class="thumbnail">
+            </div>
+            <div class="col-md-3">
+                <a href="images/news/HST_Samuel Eggimann.jpg" data-toggle="lightbox" data-title="Samuel Eggimann"
+                    class="thumbnail">
                     <img class="img-responsive  img-hover" src="images/news/HST_Samuel Eggimann_small.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">August 2020 &middot; </span>Neue Lernende ab Sommer 2020</h4>
-                <p>Willkommen Samuel Eggimann! Wir freuen uns, Dich in unserem Team zu begrüssen und wünschen Dir alles Gute für die Lehre.</p>            
+                <h4><span style="font-weight:normal; color:gray">August 2020 &middot; </span>Neue Lernende ab Sommer
+                    2020</h4>
+                <p>Willkommen Samuel Eggimann! Wir freuen uns, Dich in unserem Team zu begrüssen und wünschen Dir alles
+                    Gute für die Lehre.</p>
             </div>
         </div>
 
-        <div class="row">                                      <!--Beitrag August 2020 Neue Lehrlinge-->
+        <div class="row">
+            <!--Beitrag August 2020 Neue Lehrlinge-->
             <div class="col-lg-12">
                 <h2 class="page-header"></h2>
-            </div>            
-            <div class="col-md-3">             
-                <a href="images/news/HST_Ensar Omerovic.jpg" data-toggle="lightbox" data-title="Ensar Omerovic" class="thumbnail">
+            </div>
+            <div class="col-md-3">
+                <a href="images/news/HST_Ensar Omerovic.jpg" data-toggle="lightbox" data-title="Ensar Omerovic"
+                    class="thumbnail">
                     <img class="img-responsive  img-hover" src="images/news/HST_Ensar Omerovic_small.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">August 2020 &middot; </span>Neue Lernende ab Sommer 2020</h4>
-                <p>Willkommen Ensar Omerovic! Wir wünschen Dir einen guten, erfolgreichen Start sowie eine interessante Lehrzeit.</p>            
+                <h4><span style="font-weight:normal; color:gray">August 2020 &middot; </span>Neue Lernende ab Sommer
+                    2020</h4>
+                <p>Willkommen Ensar Omerovic! Wir wünschen Dir einen guten, erfolgreichen Start sowie eine interessante
+                    Lehrzeit.</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                   <!--Firmenzeitung-->
-            </div>            
-            <div class="col-md-3">             
+                <h2 class="page-header"></h2>
+                <!--Firmenzeitung-->
+            </div>
+            <div class="col-md-3">
                 <img class="img-responsive" src="https://www.landolt-bau.ch/images/fize/fize0820.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">August 2020 &middot; </span>Aktuelle Firmenzeitung - <b>LANDOLT</b> GRUPPE</h4>
-                <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und Baustellen. Erfahren Sie "Neues" von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr über getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
+                <h4><span style="font-weight:normal; color:gray">August 2020 &middot; </span>Aktuelle Firmenzeitung -
+                    <b>LANDOLT</b> GRUPPE</h4>
+                <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und
+                    Baustellen. Erfahren Sie "Neues" von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr über
+                    getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
                 <p>Schauen Sie rein.</p>
-                <p><a href="https://www.landolt-bau.ch/pdf/fize/august20.pdf" target="_blank" >BAU III WERK - August 2020</a></p>     
+                <p><a href="https://www.landolt-bau.ch/pdf/fize/august20.pdf" target="_blank">BAU III WERK - August
+                        2020</a></p>
 
                 <p>Unsere alten Firmenzeitungen finden Sie unter:
-                <a href="firmenzeitung.html" target="_blank" >Aktuell / Firmenzeitung</a></p>          
+                    <a href="firmenzeitung.html" target="_blank">Aktuell / Firmenzeitung</a></p>
             </div>
         </div>
 
-        <div class="row">                                      <!--Beitrag August 2020 Sommerapero-->
+        <div class="row">
+            <!--Beitrag August 2020 Sommerapero-->
             <div class="col-lg-12">
                 <h2 class="page-header"></h2>
-            </div>            
-            <div class="col-md-3">             
-                <a href="images/news/sommerapero20.JPG" data-toggle="lightbox" data-title="Sommerapéro 2020" class="thumbnail">
+            </div>
+            <div class="col-md-3">
+                <a href="images/news/sommerapero20.JPG" data-toggle="lightbox" data-title="Sommerapéro 2020"
+                    class="thumbnail">
                     <img class="img-responsive  img-hover" src="images/news/sommerapero20_small.JPG" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">10.07.2020 &middot; </span>Sommerapéro der Hans Stutz AG</h4>
-                <p>Der Sommerapéro der Hans Stutz AG fand coronakonform mit viel Abstand auf dem Platz vor dem Magazin statt. Fleisch vom Grill stillte den Hunger und auch etwas für den Durst hatte man besorgt.</p> 
-                <p>Bilder dazu sind in der Galerie zu finden.</p>           
+                <h4><span style="font-weight:normal; color:gray">10.07.2020 &middot; </span>Sommerapéro der Hans Stutz
+                    AG</h4>
+                <p>Der Sommerapéro der Hans Stutz AG fand coronakonform mit viel Abstand auf dem Platz vor dem Magazin
+                    statt. Fleisch vom Grill stillte den Hunger und auch etwas für den Durst hatte man besorgt.</p>
+                <p>Bilder dazu sind in der Galerie zu finden.</p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                               <!--31.07.2020 Lehrabschluss-->              
+            <div class="col-lg-12">&nbsp;
+                <h2 class="page-header"></h2>
+                <!--31.07.2020 Lehrabschluss-->
             </div>
             <div class="col-md-3">
-             <a href="images/news/lernende-abschluss2020.jpg" data-toggle="lightbox" data-title="Von links nach rechts: Fabian Tobler (Berufsbildner Maurer EFZ, Hans Stutz AG), Manuel Flach (Maurer EFZ, Hans Stutz AG)" class="thumbnail">
-                <img class="img-responsive  img-hover" src="images/news/lernende-abschluss2020small.jpg" alt="">
+                <a href="images/news/lernende-abschluss2020.jpg" data-toggle="lightbox"
+                    data-title="Von links nach rechts: Fabian Tobler (Berufsbildner Maurer EFZ, Hans Stutz AG), Manuel Flach (Maurer EFZ, Hans Stutz AG)"
+                    class="thumbnail">
+                    <img class="img-responsive  img-hover" src="images/news/lernende-abschluss2020small.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">31.07.2020 &middot; </span>Lehrabschluss Maurer EFZ</h4>
-                <p>Unser Maurer-Lehrling Manuel Flach hat mit Erfolg die Abschlussprüfung bestanden und darf sich von nun an "Maurer EFZ" nennen. Herzliche Gratulation!</p>
-                <p>Auf dem Bild sehen Sie von links nach rechts: Fabian Tobler (Berufsbildner Maurer EFZ, Hans Stutz AG) mit Manuel Flach (Maurer EFZ).</p>               
+                <h4><span style="font-weight:normal; color:gray">31.07.2020 &middot; </span>Lehrabschluss Maurer EFZ
+                </h4>
+                <p>Unser Maurer-Lehrling Manuel Flach hat mit Erfolg die Abschlussprüfung bestanden und darf sich von
+                    nun an "Maurer EFZ" nennen. Herzliche Gratulation!</p>
+                <p>Auf dem Bild sehen Sie von links nach rechts: Fabian Tobler (Berufsbildner Maurer EFZ, Hans Stutz AG)
+                    mit Manuel Flach (Maurer EFZ).</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                   <!--Kopas-->
-            </div>            
+                <h2 class="page-header"></h2>
+                <!--Kopas-->
+            </div>
             <div class="col-md-3">
-             <a href="https://www.landolt-bau.ch/images/news/kopas.png" data-toggle="lightbox" data-title="Der abtretende KOPAS Theo Bühler (links) mit dem neuen KOPAS Martin Bösch (rechts)" class="thumbnail">
-                <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/kopas.png" alt="">
+                <a href="https://www.landolt-bau.ch/images/news/kopas.png" data-toggle="lightbox"
+                    data-title="Der abtretende KOPAS Theo Bühler (links) mit dem neuen KOPAS Martin Bösch (rechts)"
+                    class="thumbnail">
+                    <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/kopas.png"
+                        alt="">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">01.07.2020 &middot; </span>Theo Bühler übergibt den <b>KOPAS</b> der <b>LANDOLT</b> GRUPPE an Martin Bösch</h4>
-                <p><b>Theo Bühler</b> hat seit vielen Jahren und weit über sein ordentliches Pensionsalter hinaus die Funktion als KOPAS der <b>LANDOLT</b> GRUPPE einwandfrei ausgeführt. Er hat die <b>LANDOLT</b> GRUPPE in der Arbeitssicherheit einen bedeutenden Schritt weitergebracht. Theo übergibt das Amt als KOPAS nun an <b>Martin Bösch</b>. Wir bedanken uns herzlich bei Theo für sein unermüdliches Engagement.</p>
-                <p>Martin Bösch wird als neuer KOPAS dem neu aufgestellten <b>Team für Arbeitssicherheit</b> vorstehen. Das Team für Arbeitssicherheit besteht aus <b>LANDOLT</b> GRUPPE - internen Kadermitarbeitern, welche nach dem vom KOPAS bestimmten Turnus Baustellenbesuche und Sicherheitsaudits (Kontrollen) machen werden. So ist für die <b>LANDOLT</b> GRUPPE sichergestellt, dass die vielen Baustellen regelmässig besucht und in Sicherheitsfragen genügend unterstützt werden können.</p>           
-                <p>Das Auditoren-Team besteht nebst dem neuen KOPAS Martin Bösch aus Christian Büchi, Marlene Kuratle, Roland Hegglin, Reto Hangartner und dem «alten» KOPAS Theo Bühler.</p> 
-                <p>Wir wünschen allen erfolgreiche Baustellenbesuche und viel Freude an der neuen Aufgabe.</p>                        
+                <h4><span style="font-weight:normal; color:gray">01.07.2020 &middot; </span>Theo Bühler übergibt den
+                    <b>KOPAS</b> der <b>LANDOLT</b> GRUPPE an Martin Bösch</h4>
+                <p><b>Theo Bühler</b> hat seit vielen Jahren und weit über sein ordentliches Pensionsalter hinaus die
+                    Funktion als KOPAS der <b>LANDOLT</b> GRUPPE einwandfrei ausgeführt. Er hat die <b>LANDOLT</b>
+                    GRUPPE in der Arbeitssicherheit einen bedeutenden Schritt weitergebracht. Theo übergibt das Amt als
+                    KOPAS nun an <b>Martin Bösch</b>. Wir bedanken uns herzlich bei Theo für sein unermüdliches
+                    Engagement.</p>
+                <p>Martin Bösch wird als neuer KOPAS dem neu aufgestellten <b>Team für Arbeitssicherheit</b> vorstehen.
+                    Das Team für Arbeitssicherheit besteht aus <b>LANDOLT</b> GRUPPE - internen Kadermitarbeitern,
+                    welche nach dem vom KOPAS bestimmten Turnus Baustellenbesuche und Sicherheitsaudits (Kontrollen)
+                    machen werden. So ist für die <b>LANDOLT</b> GRUPPE sichergestellt, dass die vielen Baustellen
+                    regelmässig besucht und in Sicherheitsfragen genügend unterstützt werden können.</p>
+                <p>Das Auditoren-Team besteht nebst dem neuen KOPAS Martin Bösch aus Christian Büchi, Marlene Kuratle,
+                    Roland Hegglin, Reto Hangartner und dem «alten» KOPAS Theo Bühler.</p>
+                <p>Wir wünschen allen erfolgreiche Baustellenbesuche und viel Freude an der neuen Aufgabe.</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                   <!--11.07.2020 Stelleninserat Hochbaupolier-->
-            </div>            
-            <div class="col-md-3">            
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/stellen/hochbaupolier-stutz-0720.jpg" alt="Gesucht: Hochbaupolier Hans Stutz AG">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">11.07.2020 &middot; </span>Gesucht: Hochbaupolier Hans Stutz AG</h4>
-                <p>Wir suchen in Winterthur eine(n) Hochbaupolier/-in. Unsere interessanten Baustellen bieten einer qualifizierten Fachkraft eine spannende Tätigkeit.</p>
-                <p>Weitere Informationen zu den einzelnen Stellen finden Sie unter folgendem link: <a href="offene-stellen.html" target="_blank"> Aktuell / Offene Stellen</a></p> 
-                <p>Schauen Sie rein und schicken Sie uns Ihre Bewerbungsunterlagen. Wir freuen uns Sie kennen zu lernen. </p>                         
-            </div>
-
-        <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                                       <!--Repetitionskurs Bilg-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/galerie-repkurs/13small.jpg" alt="Repetitionskurs im Werkhof Bilg">                
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">17.04.2020 &middot; </span>Repetitionskurs im Werkhof Bilg</h4> 
-                Der Bundesrat hat am 16. März 2020 infolge der Corona-Krise entschieden, dass alle Ausbildungsstätten keinen Präsenzunterricht mehr durchführen dürfen. Für die Lernenden im 3. Lehrjahr wurde damit eine optimale Vorbereitung auf die Lehrabschlussprüfung erschwert. Die <b>LANDOLT</b> GRUPPE ermöglichte für alle Lernenden im 3. Lehrjahr vom Dienstag, 14.04.2020 bis Freitag, 17.04.2020 in unserem alten Magazin Bilg in Andelfingen einen Repetitionskurs anhand des Aufgaben-Dossiers vom Kurszentrum Effretikon. Zuerst wurde das notwendige Material gemäss Materiallisten sowie die vollständige Werkzeugkiste bereitgestellt. Nach den Vorbereitungsarbeiten arbeiteten die Lernenden am Objekt, die Aufgabestellung des Baumeisterkurszentrums beinhaltete 19 Stunden Arbeit: Mauerwerk und Spezialarbeiten 15 Stunden, Schalungsobjekt 4 Stunden (ohne Bewehrung). Diese Arbeiten mussten die Lernenden der <b>LANDOLT</b> GRUPPE bis am Donnerstagabend fertiggestellt haben. Am Freitag gab es eine Abnahme durch René Kistler vom Baumeisterkurszentrum Effretikon, die Objekte wurden begutachtet und benotet. Anschliessend fand der Rückbau statt. Für die Lernenden war der interne Repetitionskurs zur Vorbereitung des QV’s sehr wertvoll. </p>
-                <p>Wir danken dem Lehrlingsbetreuer Martin Bösch sowie dem Leiter Logistik Raffael Meier für die Organisation und Begleitung bei der Umsetzung. </p>              
-                <p>In unserer Galerie finden Sie Eindrücke des Repetitionskurses: <a href="galerie-repkurs.html" target="_blank" >Galerie Repetitionskurs im Werkhof Bilg</a></p>                                                           
-            </div>            
-        </div> 
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                           <!--Firmenzeitung-->
-            </div>            
-            <div class="col-md-3">             
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/fize/dezember19.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">Dezember 2019 &middot; </span>Aktuelle Firmenzeitung - <b>LANDOLT</b> GRUPPE</h4>
-                <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und Baustellen. Erfahren Sie "Neues" von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr über getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
-                <p>Schauen Sie rein.</p>
-                <p><a href="https://www.landolt-bau.ch/pdf/fize/dezember19.pdf" target="_blank" >BAU III WERK - Dezember 2019</a></p>     
-
-                <p>Unsere alten Firmenzeitungen finden Sie unter:
-                <a href="firmenzeitung.html" target="_blank" >Aktuell / Firmenzeitung</a></p>          
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                               <!--Winterapero-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="images/galerie-winterapero19/08small.jpg" alt="Mitarbeiter-Winterapéro 2019">                
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">13.12.2019 &middot; </span>Winterapéro 2019</h4> 
-                <p>Am 13.12.2019 fand der alljährliche Jahresschlussapéro der Hans Stutz AG statt. Wir feierten in unserem Werkgebäude das zu Ende gehende Jahr. Stefano Mamone richtete Dankesworte an die Belegschaft für das geleistete Jahr und schaute optimistisch auf das kommende 2020. Bei feinem Beinschinken und Auswahl von Salaten sowie Kaffee und Dessert liessen wir den Abend gemütlich ausklingen.</p>              
-                <p>In unserer Galerie finden Sie Eindrücke des Jahresschlussapéro.</p>
-                <p><a href="galerie-winterapero19.html" target="_blank" >Galerie Winterapéro 2019</a></p>
-                
-                <p></p>                                            
-            </div>            
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                                       <!--Wilkommen Roger-->                      
+                <h2 class="page-header"></h2>
+                <!--11.07.2020 Stelleninserat Hochbaupolier-->
             </div>
             <div class="col-md-3">
-                <img class="img-responsive" src="images/team/langhartr.jpg" alt="">
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">28.10.2019 &middot; </span>Willkommen Roger</h4>
-                <p>Wir freuen uns Roger Langhart als neuer Mitarbeiter der Hans Stutz AG begrüssen zu können. Seit dem 28. Oktober arbeitet Roger als Praktikant Bauschreiber/Bauführer in unserem Büro an der Schlachthofstrasse und unterstützt dort unsere Bauführer.</p>
-                <p>Wir freuen uns über die gewonnene Verstärkung und wünschen Roger viel Freude in unserem Team.</p> </p>               
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                                               <!--Abschiedapero Ippolito-->            
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="images/galerie-far-ippolito/03small.jpg" alt="">
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">24.10.2019 &middot; </span>Abschiedsapéro Antonino Ippolito</h4>
-                <p>Die Hans Stutz AG verabschiedetet den langjährigen Mitarbeiter Antonino Ippolito zur wohlverdienten Pension. Bei einer Abschiedsfeier auf dem Werkhof der Hans Stutz AG wurde Antinino mit feiner Paella für alle in seinen neuen Lebensabschnitt begleitet. Wir wünschen ihm von Herzen alles Gute, Gesundheit und viel Freude im Ruhestand.</p> 
-                <p>Einige Bilder des Abschiedsapéros finden Sie in unserer Galerie. </p>
-                <p><a href="galerie-far-ippolito.html" target="_blank" >Galerie Abschiedsapéro Antonino Ippolito</a></p>                              
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                                           <!--Wilkommen Bettina-->                          
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="images/team/leub.jpg" alt="">
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">12.08.2019 &middot; </span>Willkommen Bettina</h4>
-                <p>Wir freuen uns Bettina Leu in unserer Runde begrüssen zu können. Seit dem 12. August 2019 arbeitet Bettina bei der Hans Stutz AG und der Mutterfirma Landolt + Co. AG Bauunternehmung im Sekretariat. </p>
-                <p>Wir freuen uns die notwendige Verstärkung im Sekretariat mit Bettina gefunden zu haben und wünschen ihr einen guten Start und viel Freude in unserem Team.</p> </p>               
-            </div>
-        </div>
-       
-        
-        
-        <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                                           <!--Sommerapero 2019-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="images/galerie-sommerapero19/13small.jpg" alt="Mitarbeiter-Sommerapéro 2019">                
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">18.07.2019 &middot; </span>Mitarbeiter-Sommerapéro 2019</h4> 
-                <p>Am 18. Juli sammelte sich die Belegschaft der Hans Stutz AG beim Werkhof an der Schlachthofstrasse und feierten den alljährlichen Sommer-Apéro. Bei feinen Grilladen und Salate konnten unsere Mitarbeiter den schönen und gelungenen Abend geniessen. </p>               
-                <p>Einige Bilder des Sommerapéros finden Sie in unserer Galerie. </p>
-                <p><a href="galerie-sommerapero19.html" target="_blank" >Galerie Mitarbeiter-Sommerapéro 2019</a></p>                
-                <p></p>                                            
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                                           <!--Pensionierung ALfred Scherrer-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="images/galerie-pension-fredy/04small.jpg" alt="Pensionierung Alfred Scherrer">                
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">21.03.2019 &middot; </span>Pensionierung Alfred Scherrer</h4> 
-                <p>Die Hans Stutz AG verabschiedete Ihren Bauführer Alfred Scherrer zur wohlverdienten Pension. Bei der Abschiedsfeier auf unserem Werkhof wurde Fredy in den neuen Lebensabschnitt begleitet. Wir wünschen Ihm von Herzen alles Gute, Gesundheit und viel Freude im Ruhestand.</p>              
-                <p>In unserer Galerie finden Sie Eindrücke des gelungenen Beisammenseins.</p>
-                <p><a href="galerie-pension-fredy.html" target="_blank" >Galerie Pensionierung Alfred Scherrer</a></p>
-                
-                <p></p>                                            
-            </div>            
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                               <!--offene Stellen 2019-->
-            </div>            
-            <div class="col-md-3">             
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/stellen/baufuehrer-kundenarbeiten-stutz.jpg" alt="">
+                <img class="img-responsive" src="https://www.landolt-bau.ch/images/stellen/hochbaupolier-stutz-0720.jpg"
+                    alt="Gesucht: Hochbaupolier Hans Stutz AG">
                 </a>
             </div>
             <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">27.02.2019 &middot; </span>Gesucht: dipl. Bauführer/-in Kundenarbeiten</h4>
-                <p>Wir suchen in Winterthur einen diplomierten Bauführer, der selbständig Kundenarbeiten von der AVOR bis Abrechnung führen kann.</p>
-                <p>Weitere Informationen zu den Stellen finden Sie unter folgendem Link: <a href="http://www.hansstutzag.ch/offene-stellen.html" target="_blank"> Aktuell / Offene Stellen</a></p> 
-                <p>Schauen Sie rein und schicken Sie uns Ihre Bewerbungsunterlagen. Wir freuen uns Sie kennen zu lernen. </p>                         
+                <h4><span style="font-weight:normal; color:gray">11.07.2020 &middot; </span>Gesucht: Hochbaupolier Hans
+                    Stutz AG</h4>
+                <p>Wir suchen in Winterthur eine(n) Hochbaupolier/-in. Unsere interessanten Baustellen bieten einer
+                    qualifizierten Fachkraft eine spannende Tätigkeit.</p>
+                <p>Weitere Informationen zu den einzelnen Stellen finden Sie unter folgendem link: <a
+                        href="offene-stellen.html" target="_blank"> Aktuell / Offene Stellen</a></p>
+                <p>Schauen Sie rein und schicken Sie uns Ihre Bewerbungsunterlagen. Wir freuen uns Sie kennen zu lernen.
+                </p>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                                                   <!--Kaderseminar-->                      
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Repetitionskurs Bilg-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="https://www.landolt-bau.ch/images/galerie-repkurs/13small.jpg"
+                        alt="Repetitionskurs im Werkhof Bilg">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">17.04.2020 &middot; </span>Repetitionskurs im
+                        Werkhof Bilg</h4>
+                    Der Bundesrat hat am 16. März 2020 infolge der Corona-Krise entschieden, dass alle
+                    Ausbildungsstätten keinen Präsenzunterricht mehr durchführen dürfen. Für die Lernenden im 3.
+                    Lehrjahr wurde damit eine optimale Vorbereitung auf die Lehrabschlussprüfung erschwert. Die
+                    <b>LANDOLT</b> GRUPPE ermöglichte für alle Lernenden im 3. Lehrjahr vom Dienstag, 14.04.2020 bis
+                    Freitag, 17.04.2020 in unserem alten Magazin Bilg in Andelfingen einen Repetitionskurs anhand des
+                    Aufgaben-Dossiers vom Kurszentrum Effretikon. Zuerst wurde das notwendige Material gemäss
+                    Materiallisten sowie die vollständige Werkzeugkiste bereitgestellt. Nach den Vorbereitungsarbeiten
+                    arbeiteten die Lernenden am Objekt, die Aufgabestellung des Baumeisterkurszentrums beinhaltete 19
+                    Stunden Arbeit: Mauerwerk und Spezialarbeiten 15 Stunden, Schalungsobjekt 4 Stunden (ohne
+                    Bewehrung). Diese Arbeiten mussten die Lernenden der <b>LANDOLT</b> GRUPPE bis am Donnerstagabend
+                    fertiggestellt haben. Am Freitag gab es eine Abnahme durch René Kistler vom Baumeisterkurszentrum
+                    Effretikon, die Objekte wurden begutachtet und benotet. Anschliessend fand der Rückbau statt. Für
+                    die Lernenden war der interne Repetitionskurs zur Vorbereitung des QV’s sehr wertvoll. </p>
+                    <p>Wir danken dem Lehrlingsbetreuer Martin Bösch sowie dem Leiter Logistik Raffael Meier für die
+                        Organisation und Begleitung bei der Umsetzung. </p>
+                    <p>In unserer Galerie finden Sie Eindrücke des Repetitionskurses: <a href="galerie-repkurs.html"
+                            target="_blank">Galerie Repetitionskurs im Werkhof Bilg</a></p>
+                </div>
             </div>
-            <div class="col-md-3">
-             <a href="images/news/seminar.png" data-toggle="lightbox" data-title="Kaderseminar" class="thumbnail">
-                <img class="img-responsive  img-hover" src="images/news/seminarsmall.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">10./11.01.2019 &middot; </span>Kaderseminar der <b>LANDOLT</b> GRUPPE</h4>
-                <p>In der letzten Betriebsferienwoche findet jeweils das Kaderseminar der <b>LANDOLT</b> GRUPPE zur Vorbereitung des anstehenden Jahres statt. Wir durften dieses Jahr wiederum die Gastfreundschaft des von uns erstellten Golfpanoramahotel Lipperswil geniessen. Im Kaderseminar konnten viele Pendenzen bereinigt und diskutiert werden, welche sich während dem Jahr angestaut haben. Die Themenpalette erstreckte sich über die Bereinigung/Entwicklung der Organisation, wie auch über Anpassungen und Optimierungen der Prozesse bis hin zur Verbesserung der Abläufe innerhalb der einzelnen Firmen und über die Gruppe als Ganzes.                 
-                </p> Es waren zwei anstrengende Tage in denen das persönliche und kulinarische nicht zu kurz kam.</p> 
-            </div>                
-        </div>
 
-        <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                                               <!--Winterapero-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="images/galerie-winterapero18/04small.jpg" alt="Mitarbeiter-Winterapéro 2018">                
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">14.12.2018 &middot; </span>Winterapéro 2018</h4> 
-                <p>Am 14.12.2018 fand der alljährliche Jahresschlussapéro der Hans Stutz AG statt. Wir feierten in unserem Werkgebäude das zu Ende gehende Jahr mit einem Poulet vom Grill und einem feinen Dessert.</p>              
-                <p>In unserer Galerie finden Sie Eindrücke des gelungenen Beisammenseins.</p>
-                <p><a href="galerie-winterapero18.html" target="_blank" >Galerie Winterapéro 2018</a></p>
-                
-                <p></p>                                            
-            </div>            
-        </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header"></h2>
+                    <!--Firmenzeitung-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="https://www.landolt-bau.ch/images/fize/dezember19.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">Dezember 2019 &middot; </span>Aktuelle
+                        Firmenzeitung - <b>LANDOLT</b> GRUPPE</h4>
+                    <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und
+                        Baustellen. Erfahren Sie "Neues" von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr
+                        über getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
+                    <p>Schauen Sie rein.</p>
+                    <p><a href="https://www.landolt-bau.ch/pdf/fize/dezember19.pdf" target="_blank">BAU III WERK -
+                            Dezember 2019</a></p>
 
-        <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                                                   <!--Jahresschlussfeier 2018-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/galerie-jahresschlussfeier2018/20small.jpg" alt="Jahresschlussfeier 2018">                
+                    <p>Unsere alten Firmenzeitungen finden Sie unter:
+                        <a href="firmenzeitung.html" target="_blank">Aktuell / Firmenzeitung</a></p>
+                </div>
             </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">23.11.2018 &middot; </span>Jahresschlussfeier 2018</h4> 
-                <p>Am 23. November fand unsere diesjährige Jahresschlussfeier in der dekorierte 3-fach Turnhalle in Andelfingen statt. Es stand ein abwechslungsreiches Programm mit eindrücklichen Darbietungen auf dem Programm. Nach dem Apéro eröffnete der DTV Andelfingen mit einem Reigen. Weitere Darbietungen wie die albanische Volkstanzgruppe "Dardania" und das Duo "movingart" begeisterten die Mitarbeiter und Mitarbeiterinnen der <b>LANDOLT</b> GRUPPE zwischen den Gängen des feinen Nachtessen. Gegen den Schluss rundeten die Ehrungen und Jubilare das kurzweilige Programm ab bevor der Ausklang in der Bar gefunden wurde.               
-                <p>Einige Bilder des gelungenen Abends finden Sie in unserer Galerie. </p>
-                <p><a href="galerie-jahresschlussfeier2018.html" target="_blank" >Galerie Jahresschlussfeier 2018</a></p>
-                
-                <p></p>                                            
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                                                       <!--Polierausflug-->                    
-            </div>
-            <div class="col-md-3">
-             <a href="https://www.landolt-bau.ch/images/news/stahlton.jpg" data-toggle="lightbox" data-title="Ein Teil des Kaders bei der Werksbesichtigung der Stahlton Bauteile AG" class="thumbnail">
-                <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/stahlton.jpg" alt="Polierausflug Stahlton">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">26.10.2018 &middot; </span>Polierausflug zur Stahlton Bauteile AG</h4>
-                <p>Das Kader der Landolt + Co. AG Bauunternehmung und der Hans Stutz AG verbrachte den wunderschönen sonnigen Freitag Nachmittag mit einem kleinen Ausflug. Wir besuchten das Werk der Stahlton Bauteile AG in Frick. Anschliessend begaben wir uns ins "riverside" in Glattfelden, wo wir ein feines Nachtessen geniessen und uns im Bowlen messen konnten.</p>
-                <!--<p><a href="/galerie-csi18.html" target="_blank" >Weitere Fotos zum Event </a></p>  -->              
-            </div>
-        </div>
 
-     
 
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                                   <!--23.08.2018 Stelleninserat BF-->
-            </div>            
-            <div class="col-md-3">             
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/stellen/baufuehrer-stutz0818.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">23.08.2018 &middot; </span>Gesucht: Bauführer/-in</h4>
-                <p>Wir suchen in Winterthur einen diplomierten Bauführer, der selbständig herausfordernde Hochbau-Projekte von der AVOR bis Abrechnung führen kann.</p>
-                <p>Weitere Informationen zu den Stellen finden Sie unter folgendem link: <a href="https://www.hansstutzag.ch/offene-stellen.html" target="_blank"> Aktuell / Offene Stellen</a></p> 
-                <p>Schauen Sie rein und schicken Sie uns Ihre Bewerbungsunterlagen. Wir freuen uns Sie kennen zu lernen. </p>                         
-            </div>
-        </div>
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Winterapero-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/galerie-winterapero19/08small.jpg"
+                        alt="Mitarbeiter-Winterapéro 2019">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">13.12.2019 &middot; </span>Winterapéro 2019</h4>
+                    <p>Am 13.12.2019 fand der alljährliche Jahresschlussapéro der Hans Stutz AG statt. Wir feierten in
+                        unserem Werkgebäude das zu Ende gehende Jahr. Stefano Mamone richtete Dankesworte an die
+                        Belegschaft für das geleistete Jahr und schaute optimistisch auf das kommende 2020. Bei feinem
+                        Beinschinken und Auswahl von Salaten sowie Kaffee und Dessert liessen wir den Abend gemütlich
+                        ausklingen.</p>
+                    <p>In unserer Galerie finden Sie Eindrücke des Jahresschlussapéro.</p>
+                    <p><a href="galerie-winterapero19.html" target="_blank">Galerie Winterapéro 2019</a></p>
 
-      <!--  <div class="row">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Wilkommen Roger-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/team/langhartr.jpg" alt="">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">28.10.2019 &middot; </span>Willkommen Roger</h4>
+                    <p>Wir freuen uns Roger Langhart als neuer Mitarbeiter der Hans Stutz AG begrüssen zu können. Seit
+                        dem 28. Oktober arbeitet Roger als Praktikant Bauschreiber/Bauführer in unserem Büro an der
+                        Schlachthofstrasse und unterstützt dort unsere Bauführer.</p>
+                    <p>Wir freuen uns über die gewonnene Verstärkung und wünschen Roger viel Freude in unserem Team.</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Abschiedapero Ippolito-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/galerie-far-ippolito/03small.jpg" alt="">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">24.10.2019 &middot; </span>Abschiedsapéro Antonino
+                        Ippolito</h4>
+                    <p>Die Hans Stutz AG verabschiedetet den langjährigen Mitarbeiter Antonino Ippolito zur
+                        wohlverdienten Pension. Bei einer Abschiedsfeier auf dem Werkhof der Hans Stutz AG wurde
+                        Antinino mit feiner Paella für alle in seinen neuen Lebensabschnitt begleitet. Wir wünschen ihm
+                        von Herzen alles Gute, Gesundheit und viel Freude im Ruhestand.</p>
+                    <p>Einige Bilder des Abschiedsapéros finden Sie in unserer Galerie. </p>
+                    <p><a href="galerie-far-ippolito.html" target="_blank">Galerie Abschiedsapéro Antonino Ippolito</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Wilkommen Bettina-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/team/leub.jpg" alt="">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">12.08.2019 &middot; </span>Willkommen Bettina</h4>
+                    <p>Wir freuen uns Bettina Leu in unserer Runde begrüssen zu können. Seit dem 12. August 2019
+                        arbeitet Bettina bei der Hans Stutz AG und der Mutterfirma Landolt + Co. AG Bauunternehmung im
+                        Sekretariat. </p>
+                    <p>Wir freuen uns die notwendige Verstärkung im Sekretariat mit Bettina gefunden zu haben und
+                        wünschen ihr einen guten Start und viel Freude in unserem Team.</p>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Sommerapero 2019-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/galerie-sommerapero19/13small.jpg"
+                        alt="Mitarbeiter-Sommerapéro 2019">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">18.07.2019 &middot; </span>Mitarbeiter-Sommerapéro
+                        2019</h4>
+                    <p>Am 18. Juli sammelte sich die Belegschaft der Hans Stutz AG beim Werkhof an der
+                        Schlachthofstrasse und feierten den alljährlichen Sommer-Apéro. Bei feinen Grilladen und Salate
+                        konnten unsere Mitarbeiter den schönen und gelungenen Abend geniessen. </p>
+                    <p>Einige Bilder des Sommerapéros finden Sie in unserer Galerie. </p>
+                    <p><a href="galerie-sommerapero19.html" target="_blank">Galerie Mitarbeiter-Sommerapéro 2019</a></p>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Pensionierung ALfred Scherrer-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/galerie-pension-fredy/04small.jpg"
+                        alt="Pensionierung Alfred Scherrer">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">21.03.2019 &middot; </span>Pensionierung Alfred
+                        Scherrer</h4>
+                    <p>Die Hans Stutz AG verabschiedete Ihren Bauführer Alfred Scherrer zur wohlverdienten Pension. Bei
+                        der Abschiedsfeier auf unserem Werkhof wurde Fredy in den neuen Lebensabschnitt begleitet. Wir
+                        wünschen Ihm von Herzen alles Gute, Gesundheit und viel Freude im Ruhestand.</p>
+                    <p>In unserer Galerie finden Sie Eindrücke des gelungenen Beisammenseins.</p>
+                    <p><a href="galerie-pension-fredy.html" target="_blank">Galerie Pensionierung Alfred Scherrer</a>
+                    </p>
+
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header"></h2>
+                    <!--offene Stellen 2019-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive"
+                        src="https://www.landolt-bau.ch/images/stellen/baufuehrer-kundenarbeiten-stutz.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">27.02.2019 &middot; </span>Gesucht: dipl.
+                        Bauführer/-in Kundenarbeiten</h4>
+                    <p>Wir suchen in Winterthur einen diplomierten Bauführer, der selbständig Kundenarbeiten von der
+                        AVOR bis Abrechnung führen kann.</p>
+                    <p>Weitere Informationen zu den Stellen finden Sie unter folgendem Link: <a
+                            href="http://www.hansstutzag.ch/offene-stellen.html" target="_blank"> Aktuell / Offene
+                            Stellen</a></p>
+                    <p>Schauen Sie rein und schicken Sie uns Ihre Bewerbungsunterlagen. Wir freuen uns Sie kennen zu
+                        lernen. </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Kaderseminar-->
+                </div>
+                <div class="col-md-3">
+                    <a href="images/news/seminar.png" data-toggle="lightbox" data-title="Kaderseminar"
+                        class="thumbnail">
+                        <img class="img-responsive  img-hover" src="images/news/seminarsmall.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">10./11.01.2019 &middot; </span>Kaderseminar der
+                        <b>LANDOLT</b> GRUPPE</h4>
+                    <p>In der letzten Betriebsferienwoche findet jeweils das Kaderseminar der <b>LANDOLT</b> GRUPPE zur
+                        Vorbereitung des anstehenden Jahres statt. Wir durften dieses Jahr wiederum die Gastfreundschaft
+                        des von uns erstellten Golfpanoramahotel Lipperswil geniessen. Im Kaderseminar konnten viele
+                        Pendenzen bereinigt und diskutiert werden, welche sich während dem Jahr angestaut haben. Die
+                        Themenpalette erstreckte sich über die Bereinigung/Entwicklung der Organisation, wie auch über
+                        Anpassungen und Optimierungen der Prozesse bis hin zur Verbesserung der Abläufe innerhalb der
+                        einzelnen Firmen und über die Gruppe als Ganzes.
+                    </p> Es waren zwei anstrengende Tage in denen das persönliche und kulinarische nicht zu kurz kam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Winterapero-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/galerie-winterapero18/04small.jpg"
+                        alt="Mitarbeiter-Winterapéro 2018">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">14.12.2018 &middot; </span>Winterapéro 2018</h4>
+                    <p>Am 14.12.2018 fand der alljährliche Jahresschlussapéro der Hans Stutz AG statt. Wir feierten in
+                        unserem Werkgebäude das zu Ende gehende Jahr mit einem Poulet vom Grill und einem feinen
+                        Dessert.</p>
+                    <p>In unserer Galerie finden Sie Eindrücke des gelungenen Beisammenseins.</p>
+                    <p><a href="galerie-winterapero18.html" target="_blank">Galerie Winterapéro 2018</a></p>
+
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Jahresschlussfeier 2018-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive"
+                        src="https://www.landolt-bau.ch/images/galerie-jahresschlussfeier2018/20small.jpg"
+                        alt="Jahresschlussfeier 2018">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">23.11.2018 &middot; </span>Jahresschlussfeier 2018
+                    </h4>
+                    <p>Am 23. November fand unsere diesjährige Jahresschlussfeier in der dekorierte 3-fach Turnhalle in
+                        Andelfingen statt. Es stand ein abwechslungsreiches Programm mit eindrücklichen Darbietungen auf
+                        dem Programm. Nach dem Apéro eröffnete der DTV Andelfingen mit einem Reigen. Weitere
+                        Darbietungen wie die albanische Volkstanzgruppe "Dardania" und das Duo "movingart" begeisterten
+                        die Mitarbeiter und Mitarbeiterinnen der <b>LANDOLT</b> GRUPPE zwischen den Gängen des feinen
+                        Nachtessen. Gegen den Schluss rundeten die Ehrungen und Jubilare das kurzweilige Programm ab
+                        bevor der Ausklang in der Bar gefunden wurde.
+                        <p>Einige Bilder des gelungenen Abends finden Sie in unserer Galerie. </p>
+                        <p><a href="galerie-jahresschlussfeier2018.html" target="_blank">Galerie Jahresschlussfeier
+                                2018</a></p>
+
+                        <p></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Polierausflug-->
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.landolt-bau.ch/images/news/stahlton.jpg" data-toggle="lightbox"
+                        data-title="Ein Teil des Kaders bei der Werksbesichtigung der Stahlton Bauteile AG"
+                        class="thumbnail">
+                        <img class="img-responsive  img-hover" src="https://www.landolt-bau.ch/images/news/stahlton.jpg"
+                            alt="Polierausflug Stahlton">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">26.10.2018 &middot; </span>Polierausflug zur
+                        Stahlton Bauteile AG</h4>
+                    <p>Das Kader der Landolt + Co. AG Bauunternehmung und der Hans Stutz AG verbrachte den wunderschönen
+                        sonnigen Freitag Nachmittag mit einem kleinen Ausflug. Wir besuchten das Werk der Stahlton
+                        Bauteile AG in Frick. Anschliessend begaben wir uns ins "riverside" in Glattfelden, wo wir ein
+                        feines Nachtessen geniessen und uns im Bowlen messen konnten.</p>
+                    <!--<p><a href="/galerie-csi18.html" target="_blank" >Weitere Fotos zum Event </a></p>  -->
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header"></h2>
+                    <!--23.08.2018 Stelleninserat BF-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="https://www.landolt-bau.ch/images/stellen/baufuehrer-stutz0818.jpg"
+                        alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">23.08.2018 &middot; </span>Gesucht: Bauführer/-in
+                    </h4>
+                    <p>Wir suchen in Winterthur einen diplomierten Bauführer, der selbständig herausfordernde
+                        Hochbau-Projekte von der AVOR bis Abrechnung führen kann.</p>
+                    <p>Weitere Informationen zu den Stellen finden Sie unter folgendem link: <a
+                            href="https://www.hansstutzag.ch/offene-stellen.html" target="_blank"> Aktuell / Offene
+                            Stellen</a></p>
+                    <p>Schauen Sie rein und schicken Sie uns Ihre Bewerbungsunterlagen. Wir freuen uns Sie kennen zu
+                        lernen. </p>
+                </div>
+            </div>
+
+            <!--  <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header"></h2>                                                   EVOBUS
             </div>            
@@ -755,92 +1009,108 @@
             </div>
         </div>-->
 
-        <div class="row">
-            <div class="col-lg-12">&nbsp; 
-                <h2 class="page-header"></h2>                                                   <!--Neue Lehrlinge Lars Werren-->                          
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Neue Lehrlinge Lars Werren-->
+                </div>
+                <div class="col-md-3">
+                    <a href="images/news/lernende18.jpg" data-toggle="lightbox" data-title="Lars Werren"
+                        class="thumbnail">
+                        <img class="img-responsive  img-hover" src="images/news/lernende18.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">13.08.2018 &middot; </span>Lars Werren - Der neue
+                        Maurer-Lernende der Hans Stutz AG</h4>
+                    <p>Am 13.08.2018 hat bei uns Lars Werren die Ausbildung zum Maurer EFZ begonnen.</p>
+                    <p>Herzlich Willkommen in unserer Runde. Wir wünschen Lars einen guten und erfolgreichen Start in
+                        die Berufswelt!</p>
+                </div>
             </div>
-            <div class="col-md-3">
-             <a href="images/news/lernende18.jpg" data-toggle="lightbox" data-title="Lars Werren" class="thumbnail">
-                <img class="img-responsive  img-hover" src="images/news/lernende18.jpg" alt="">
-                </a>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header"></h2>
+                    <!--Firmenzeitung-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="https://www.landolt-bau.ch/images/fize/fize0718.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">Juli 2018 &middot; </span>Aktuelle Firmenzeitung
+                    </h4>
+                    <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und
+                        Baustellen. Erfahren Sie "Neues" von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr
+                        über getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
+                    <p>Schauen Sie rein.</p>
+                    <p><a href="https://www.landolt-bau.ch/pdf/fize/juli18.pdf" target="_blank">BAU III WERK - Juli
+                            2018</a></p>
+                </div>
             </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">13.08.2018 &middot; </span>Lars Werren - Der neue Maurer-Lernende der Hans Stutz AG</h4>
-                <p>Am 13.08.2018 hat bei uns Lars Werren die Ausbildung zum Maurer EFZ begonnen.</p>
-                <p>Herzlich Willkommen in unserer Runde. Wir wünschen Lars einen guten und erfolgreichen Start in die Berufswelt!</p>                
+
+            <div class="row">
+                <div class="col-lg-12">&nbsp;
+                    <h2 class="page-header"></h2>
+                    <!--Sommerapero 2018-->
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive" src="images/galerie-sommerapero18/04small.jpg"
+                        alt="Mitarbeiter-Sommerapéro 2018">
+                </div>
+                <div class="col-md-9">
+                    <h4><span style="font-weight:normal; color:gray">06.07.2018 &middot; </span>Mitarbeiter-Sommerapéro
+                        2018</h4>
+                    <p>Am 6. Juli sammelte sich die Belegschaft der Hans Stutz AG beim Werkhof an der Schlachthofstrasse
+                        und genossen den alljährlichen Sommer-Apéro. Als Neuerung durften wir dieses Jahr echte
+                        italienische Holzofen Pizza unseren Mitarbeitern anbieten. Nebst der Ehrung der Jubilaren
+                        konnten wir auch zu einer anstehenden Hochzeit Glück wünschen und einen Pensionär verabschieden.
+                        Es war ein schöner und gelungener Abend. </p>
+                    <p>Einige Bilder des Sommerapéros finden Sie in unserer Galerie. </p>
+                    <p><a href="galerie-sommerapero18.html" target="_blank">Galerie Mitarbeiter-Sommerapéro 2018</a></p>
+                    <p></p>
+                </div>
             </div>
+
+
+
+
+
+            <!-- /.row -->
+
+            <!-- Footer -->
+            <div id="footer"></div>
+
         </div>
+        <!-- /.container -->
 
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header"></h2>                                                   <!--Firmenzeitung-->
-            </div>            
-            <div class="col-md-3">             
-                <img class="img-responsive" src="https://www.landolt-bau.ch/images/fize/fize0718.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">Juli 2018 &middot; </span>Aktuelle Firmenzeitung</h4>
-                <p>Unsere neue Firmenzeitung ist da! Nehmen Sie einen Einblick in unsere aktuelle Projekte und Baustellen. Erfahren Sie "Neues" von unseren Mitarbeiterinnen und Mitarbeiter. Lesen Sie mehr über getätigte Weiterbildungen, bestandene Prüfungen und gefeierte Anlässe.</p>
-                <p>Schauen Sie rein.</p>
-                <p><a href="https://www.landolt-bau.ch/pdf/fize/juli18.pdf" target="_blank" >BAU III WERK - Juli 2018</a></p>               
-            </div>
-        </div>
+        <!-- jQuery -->
+        <script src="https://www.landolt-bau.ch/js/jquery.js"></script>
 
-       <div class="row">
-            <div class="col-lg-12">&nbsp;
-                <h2 class="page-header"></h2>                                                       <!--Sommerapero 2018-->
-            </div>            
-            <div class="col-md-3">                
-                <img class="img-responsive" src="images/galerie-sommerapero18/04small.jpg" alt="Mitarbeiter-Sommerapéro 2018">                
-            </div>
-            <div class="col-md-9">
-                <h4><span style="font-weight:normal; color:gray">06.07.2018 &middot; </span>Mitarbeiter-Sommerapéro 2018</h4> 
-                <p>Am 6. Juli sammelte sich die Belegschaft der Hans Stutz AG beim Werkhof an der Schlachthofstrasse und genossen den alljährlichen Sommer-Apéro. Als Neuerung durften wir dieses Jahr echte italienische Holzofen Pizza unseren Mitarbeitern anbieten. Nebst der Ehrung der Jubilaren konnten wir auch zu einer anstehenden Hochzeit Glück wünschen und einen Pensionär verabschieden. Es war ein schöner und gelungener Abend. </p>               
-                <p>Einige Bilder des Sommerapéros finden Sie in unserer Galerie. </p>
-                <p><a href="galerie-sommerapero18.html" target="_blank" >Galerie Mitarbeiter-Sommerapéro 2018</a></p>                
-                <p></p>                                            
-            </div>
-        </div>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://www.landolt-bau.ch/js/bootstrap.min.js"></script>
 
+        <script src="https://www.landolt-bau.ch/lib/ekko-lightbox.min.js"></script>
 
-     
+        <!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+        </script>
 
-        
-        <!-- /.row -->
+        <script>
+            $(function () {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            });
 
-        <!-- Footer -->
-        <div id="footer"></div>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="https://www.landolt-bau.ch/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://www.landolt-bau.ch/js/bootstrap.min.js"></script>
-
-    <script src="https://www.landolt-bau.ch/lib/ekko-lightbox.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
-    <script> 
-    $(function(){
-      $("#header").load("header.html"); 
-      $("#footer").load("footer.html"); 
-    });
-
-     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    }); 
-    </script>
+            $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        </script>
 
 </body>
 
